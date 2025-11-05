@@ -8,7 +8,7 @@ class counterVewModel() {
     val counter = _counter
 
     fun add(){
-        _counter.value++
+        _counter.intValue++
     }
 
 }
